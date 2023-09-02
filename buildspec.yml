@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto11 # Using Corretto 11 as an example, you can choose another version if needed.
+      java: corretto17 # Using Corretto 11 as an example, you can choose another version if needed.
     commands:
       - echo "Installing required tools and dependencies..."
       - mvn -v # Just to verify Maven is available
