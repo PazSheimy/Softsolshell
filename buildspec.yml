@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11 # Using Corretto 11 as an example, you can choose another version if needed.
+    commands:
+      - echo "Installing required tools and dependencies..."
+      - mvn -v # Just to verify Maven is available
+      
+  pre_build:
+    commands:
+      - echo "Running pre-build steps..."
+      - mvn clean
+      
+  build:
+    commands:
+      - echo "Building the project..."
+      - mvn package
+
+artifacts:
+  files:
+    - target/*.jar  # This assumes your build produces a JAR file in the target directory
