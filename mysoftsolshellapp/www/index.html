@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head th:replace="~{base :: head}"></head>
+
+<body>
+    <header th:replace="~{base :: header}"></header>
+
+    <!-- Main Content Section -->
+    <section id="main-content" class="py-5 bg-light">
+        <div class="container text-center">
+            <i class="fas fa-seedling"></i>
+            <h2 class="mt-3">Our Mission</h2>
+            <p class="lead">At SpSoftware, we believe that every dream can become a reality. Through the lens of
+                software, we've witnessed countless aspirations transform into tangible solutions. Our mission? To
+                inspire you. To remind you that with unwavering focus and dedication, every goal you set is within
+                reach. Let's turn dreams into digital realities, together.</p>
+            <a href="/aboutus" class="btn btn-outline-primary">Learn More About Us</a>
+        </div>
+    </section>
+
+    <footer th:replace="~{base :: footer}"></footer>
+
+    <!-- Optional: jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Optional: Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

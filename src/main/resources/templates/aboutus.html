@@ -5,61 +5,73 @@
 
 <body>
     <header th:replace="~{base :: header}"></header>
-    <!-- About Us Section -->
-
 
     <section id="about-us" class="py-5 bg-light">
         <div class="container">
-            <div class="row">
+
+            <!-- About Section -->
+            <div class="row mb-5">
                 <div class="col-lg-6">
-                    <i class="fa fa-question-circle fa-3x mb-3"></i> <!-- Icon for "Why We Do What We Do" -->
                     <h2>Why We Do What We Do</h2>
                     <p>
-                        At SoftSolShell, we believe in harnessing the power of technology to bring transformative
-                        change. Our passion for innovation drives us to explore the uncharted territories of software
-                        development, aiming to deliver exceptional solutions for our clients.
+                        At SoftSolShell, we believe in harnessing the power of technology to bring transformative change. Our passion for innovation drives us to explore the uncharted territories of software development, aiming to deliver exceptional solutions for our clients.
                     </p>
                 </div>
-                <!-- <div class="col-lg-6">
-                    <img src="/images/softsolshelllogo.png" alt="About Spazsoftware" class="img-fluid rounded">
+            </div>
+
+            <!-- Project 1 -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3>TPT TESS PROPOSAL TOOL</h3>
+                    <p>Nasa’s Transiting Exoplanet Survey Satellite (TESS) is a space mission designed to search for planets outside of our solar system. Tess will observe the entire sky over two years dividing it into 26 sectors, every 24 degrees by 96 degrees in size. 
+                        Tess will create a catalog of exoplanets candidates to conduct ground-based follow-up observations to determine the planet’s composition, revealing if planets are rocky like Earth, gas giants (like Jupiter), etc. Further investigation of these exoplanets will be possible using ground- and space-based missions, such as the James Webb Space Telescope, enabling astronomers to analyze their atmospheres.  The concept of the TESS Proposal Tool (TPT) is to provide a user-friendly interface for astronomers and researchers to interact with and explore data from the TESS mission. </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/ski1.png" alt="SoftSolShell - Project 1 Image 1" class="img-fluid rounded mb-4">
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/targetvistool.png" alt="SoftSolShell - Project 1 Image 2" class="img-fluid mb-3 rounded">
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://softsolshell.s3.amazonaws.com/frontend3screengraphs+(1).png" alt="SoftSolShell - About" class="img-fluid rounded mb-4">
+                </div>
+                
+            </div>
+
+            <!-- Project 2 -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3>Tjournals</h3>
+                    <p>This software is tailored for aficionados of the stock market, forex, cryptocurrency, and related financial markets. Integrated with advanced features, it boasts social media capabilities allowing users to gain insights into the current trades of their peers. Additionally, with the incorporation of AI chat, users receive guidance to rectify their trading missteps. The platform also provides a comprehensive statistical report generator, empowering users with data-driven insights to enhance their trading strategies. Not only does it facilitate sharing of insights and fostering discussions, but it also enables users to log their trades, analyze market trends, and devise new, effective trading approaches.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/feeds.png" alt="SoftSolShell - Project 2 Image 1" class="img-fluid mb-3 rounded">
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/Marketanalisys.png" alt="SoftSolShell - Project 2 Image 2" class="img-fluid mb-3 rounded">
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/chat.png" alt="SoftSolShell - Project 2 Image 3" class="img-fluid mb-3 rounded">
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/journal.png" alt="SoftSolShell - Project 2 Image 4" class="img-fluid mb-3 rounded">
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/tradedetail.png" alt="SoftSolShell - Project 2 Image 4" class="img-fluid mb-3 rounded">
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/tradedetailinside.png" alt="SoftSolShell - Project 2 Image 4" class="img-fluid mb-3 rounded">
+                </div>
+
+                <!-- <div class="col-lg-4">
+                    <img src="https://softsolshell.s3.amazonaws.com/sssxlogo.png" alt="SoftSolShell - Project 2 Image 4" class="img-fluid mb-3 rounded">
                 </div> -->
             </div>
 
-            
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <i class="fa fa-bullseye fa-3x mb-3"></i> <!-- Icon for "Our Mission" -->
-                    <h3>Our Mission</h3>
-                    <p>
-                        To provide innovative and efficient software solutions that elevate our clients' businesses,
-                        fostering a symbiotic growth.
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <i class="fa fa-eye fa-3x mb-3"></i> <!-- Icon for "Our Vision" -->
-                    <h3>Our Vision</h3>
-                    <p>
-                        To be a global leader in software development, recognized for our relentless pursuit of
-                        excellence and innovation.
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <i class="fa fa-hand-holding-heart fa-3x mb-3"></i> <!-- Icon for "Core Values" -->
-                    <h3>Core Values</h3>
-                    <ul>
-                        <li>Integrity and Honesty</li>
-                        <li>Continuous Learning</li>
-                        <li>Client First Approach</li>
-                        <li>Innovation at Heart</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer th:replace="~{base :: footer}"></footer>
-    <!-- Optional: Bootstrap JS, and any other JS libraries -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

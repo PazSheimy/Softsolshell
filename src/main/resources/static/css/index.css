@@ -1,3 +1,13 @@
+.custom-toggler {
+    margin-left: 15px; /* Space between title and button */
+    margin-bottom: 10px; /* Space between button and expanded menu */
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+
 /* header {
     background-color: #fff;
     padding: 10px 0;
